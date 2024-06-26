@@ -19,7 +19,7 @@ public class EnemyScript : MonoBehaviour
 
         if(col.tag == "Player")
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Game");
         }
     }
 }
